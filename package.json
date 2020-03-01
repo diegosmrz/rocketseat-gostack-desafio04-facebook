@@ -1,0 +1,27 @@
+{
+  "name": "rocketseat-gostack-desafio04-facebook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/diegomrz/rocketseat-gostack-desafio04-facebook.git",
+  "author": "diegomrz <diegomrz@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}

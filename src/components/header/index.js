@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
+import './style.css';
 class Header extends Component {
-
   render() {
-    <header id='fb-header'>Facebook</header>
+    return (
+      <header id='fbheader'>Facebook</header>
+    );
   }
 
 }

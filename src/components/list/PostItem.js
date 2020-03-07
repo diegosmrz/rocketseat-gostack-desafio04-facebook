@@ -4,8 +4,10 @@ import PropTypes from 'prop-types';
 function PostItem({ post, onDelete }) {
   return (
     <li>
-      {post}
-      <button onClick={onDelete} type="button">Remover</button>
+      <artifact id='post'>
+        {post}
+        <button onClick={onDelete} type="button">Remover</button>
+      </artifact>
     </li>
   )
 }

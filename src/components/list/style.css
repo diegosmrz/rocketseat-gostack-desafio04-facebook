@@ -1,0 +1,11 @@
+#post{
+  width: 70%;
+  height: 150px;
+  background: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -5,7 +5,7 @@ import PostItem from './PostItem';
 class PostList extends Component {
   state = {
     newPost: '',
-    posts: []
+    posts: ["Diego", "João"]
   };
 
   componentDidMount() {
@@ -46,7 +46,7 @@ class PostList extends Component {
           <h1>{this.state.newPost}</h1>
           <ul>
             {this.state.posts.map(post =>
-              <TechItem
+              <PostItem
                 key={post}
                 tech={post}
                 onDelete={() => this.handleDelete(post)} />

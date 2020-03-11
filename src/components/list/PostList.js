@@ -2,10 +2,12 @@ import React, { Component } from 'react';
 
 import PostItem from './PostItem';
 
+import './style.css';
+
 class PostList extends Component {
   state = {
     newPost: '',
-    posts: ["Diego", "João"]
+    posts: ['post1']
   };
 
   componentDidMount() {
@@ -52,11 +54,6 @@ class PostList extends Component {
                 onDelete={() => this.handleDelete(post)} />
             )}
           </ul>
-          <input
-            type="text"
-            onChange={this.handleInputChange}
-            value={this.state.newPost} />
-          <button type="submit">Enviar</button>
         </form>
       </>
     )

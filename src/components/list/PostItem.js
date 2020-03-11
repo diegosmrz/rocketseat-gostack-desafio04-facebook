@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import './style.css';
+
 function PostItem({ post, onDelete }) {
   return (
     <li>
@@ -13,7 +15,7 @@ function PostItem({ post, onDelete }) {
 }
 
 PostItem.defaultProps = {
-  post: 'Oculto',
+  post: 'Post',
 }
 
 PostItem.propTypes = {

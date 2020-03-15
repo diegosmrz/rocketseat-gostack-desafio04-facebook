@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import './style.css';
-class Header extends Component {
-  render() {
-    return (
-      <header id='fbheader'>
+import './Header.css'
+
+function Header() {
+  return (
+    <header>
+      <div id="fbheader">
         <h3>facebook</h3>
-        <p>sair</p>
-      </header>
-    );
-  }
-
+        <p>Meu perfil</p>
+      </div>
+    </header>
+  );
 }
 
 export default Header;
